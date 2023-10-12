@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>header_14</title>
+    <title>Header_14</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
@@ -15,9 +14,158 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <main>
-      <h1>Welcome to My Website</h1>
-    </main>
-    <script src="index.js"></script>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary"
+      style="
+        width: 0%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 32%;
+        margin-top: 5%;
+      "
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="color: rgba(255, 255, 255, 1); margin-right: 148px"
+          >Startup 3</a
+        >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              style="color: rgba(255, 255, 255, 1)"
+              >Overview</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgba(255, 255, 255, 1)"
+              >Prices</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgba(255, 255, 255, 1)"
+              >Blog</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgba(255, 255, 255, 1)"
+              >Feedback</a
+            >
+          </li>
+          <li class="nav-item">
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="
+                background-color: rgba(233, 58, 125, 1);
+                border-radius: 100px;
+              "
+            >
+              Purchase
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="flex-container">
+      <div class="bg-blue card-container">
+        <div class="card" style="width: 18rem; border: none">
+          <div class="card-body" style="background-color: rgba(47, 24, 147, 1)">
+            <h2 class="card-title" style="color: rgba(255, 255, 255, 1)">
+              Generate Awesome Web Pages
+              <br /><br />
+            </h2>
+            <h5 class="card-title" style="color: rgba(255, 255, 255, 1)">
+              The most important part of the Startup is the samples. The samples
+              form a set of 25 usable pages you can use as is or you can add new
+              blocks.
+            </h5>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="
+                background-color: rgba(233, 58, 125, 1);
+                border-radius: 100px;
+              "
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-red form-container">
+        <form style="width: 50%; display: grid">
+          <h2
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            Sign Up Now
+          </h2>
+          <div class="mb-3" style="border-radius: 100%">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="mb-3" style="border-radius: 100px">
+            <label class="form-label"></label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Your Password"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >I agree to the Terms of Service.</label
+            >
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="
+              background-color: ndary rgba(72, 43, 231, 1);
+              border-radius: 100px;
+            "
+          >
+            Sign In
+          </button>
+          <p
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            -or-
+          </p>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="
+              background-color: rgba(29, 161, 242, 1);
+              border-radius: 100px;
+            "
+          >
+            Login via Twitter
+          </button>
+          <p class="card-text">
+            Do you have an Account?
+            <a href="#" style="color: rgba(37, 218, 197, 1)">Sign In</a>
+          </p>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
